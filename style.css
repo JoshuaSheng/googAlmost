@@ -1,0 +1,136 @@
+#logo {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+}
+#logosmalltext {
+  font-size: 50px;
+  font-weight: normal;
+}
+span {
+  padding: 0;
+}
+:root {
+  --border-color: #ddd;
+  --button-search-font: #3c4043;
+  --button-search-background: #f8f9fa;
+  --footer-background: #f2f2f2;
+  --footer-font: #70757a;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* footer support */
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: arial, sans-serif;
+  line-height: 1.6;
+}
+
+i {
+  padding-left: 0.5em;
+  padding-right: 1em;
+}
+
+button,
+input {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+}
+
+
+/* MAIN */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  margin-top: 50px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  width: 580px;
+  height: 45px;
+  padding: 10px;
+}
+.hidden {
+  display: none !important;
+}
+.definitions {
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  width: 580px;
+  padding: 10px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 3vw;
+  margin-bottom: 10px;
+}
+
+.search-wrapper {
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+}
+
+.search-wrapper:hover,
+.search-wrapper:focus-within {
+  border-color: white;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.search-result {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.search-result:hover {
+  background-color: #BABCBE
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+}
+
+.controller {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.definition {
+  margin-left: 1vw;
+}
+.meaning {
+  margin-left: 3vw;
+}
+
+.next-items {
+  color: #4285F4;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
