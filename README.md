@@ -1,9 +1,9 @@
 ## GoogAlmost:
 Ever have that one word on the tip of your tongue... but you don't know what it is? Goog... almost helps you find the right word you need! Useful for non-native english speakers. Try it out at: https://joshuasheng.com/googAlmost Access the devpost at: https://devpost.com/software/goog-almost
 
-[googAlmost](https://user-images.githubusercontent.com/65204925/152703281-58ee8a55-121f-4d4b-9914-64666a55cd4e.PNG)
+![googAlmost](https://user-images.githubusercontent.com/65204925/152703281-58ee8a55-121f-4d4b-9914-64666a55cd4e.PNG)
 
-### Inspiration!
+### Inspiration
 
 I got inspired to build this project while messing around with google autocomplete one day. I wanted to build something like that and looked into a few algorithms and found one I was interested in. XHacks happened to come along at a good time so I decided to build an app around it. The inspiration for the app was my learning Japanese at the time. Looking up a word I vaguely remembered lead me to a completely different word I knew I was incorrect. No matter what I tried, I couldn't get the right word and the whole experience was incredibly frustrating.
 
