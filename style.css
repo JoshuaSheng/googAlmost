@@ -1,5 +1,5 @@
 #logo {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   font-size: 100px;
   font-weight: bold;
 }
@@ -50,7 +50,6 @@ input {
   outline: none;
 }
 
-
 /* MAIN */
 
 .main {
@@ -86,6 +85,7 @@ input {
 .search-wrapper {
   border: 1px solid var(--border-color);
   border-radius: 30px;
+  margin-bottom: 10px;
 }
 
 .search-wrapper:hover,
@@ -101,7 +101,7 @@ input {
 }
 
 .search-result:hover {
-  background-color: #BABCBE
+  background-color: #babcbe;
 }
 
 .search-icon {
@@ -129,7 +129,7 @@ input {
 }
 
 .next-items {
-  color: #4285F4;
+  color: #4285f4;
   padding-top: 10px;
   padding-left: 20px;
   margin-bottom: 20px;
