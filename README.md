@@ -1,4 +1,4 @@
-## GoogAlmost:
+# GoogAlmost:
 Ever have that one word on the tip of your tongue... but you don't know what it is? Goog... almost helps you find the right word you need! Useful for non-native english speakers. Try it out at: https://joshuasheng.com/googAlmost Access the devpost at: https://devpost.com/software/goog-almost
 
 [![googAlmost](https://user-images.githubusercontent.com/65204925/152703281-58ee8a55-121f-4d4b-9914-64666a55cd4e.PNG)](https://www.youtube.com/watch?v=LvORoVxPEIU)
